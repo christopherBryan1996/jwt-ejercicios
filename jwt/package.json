@@ -1,0 +1,28 @@
+{
+  "name": "sequelize-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherBryan1996/jwt-ejercicios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherBryan1996/jwt-ejercicios/issues"
+  },
+  "homepage": "https://github.com/christopherBryan1996/jwt-ejercicios#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
+}
