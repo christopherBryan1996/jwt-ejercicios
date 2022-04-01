@@ -5,7 +5,8 @@ module.exports ={
     dbUser: process.env.DB_USER,
     dbPassword: process.env.DB_PASSWORD,
     dbHost: process.env.DB_HOST,
-    //configuraciones Seeds
-    seederStorage: 'sequelize',
-    seederStorageTableName: 'seeds'
+    //configuracion auth
+    secret: process.env.AUTH_SECRET,
+    expires: process.env.AUTH_EXPIRE,
+    rounds: process.env.AUTH_ROUNDS
 }
